@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--
+  Name: Chelsea Miller
+  Date Created: 03/24/2020
+  Most Recent Revision: 03/25/2020
+  -->
+  <html lang="en">
+  <head><title>Sea Food</title> </head>
+  <body>
+    <header>
+      <h1> Contact Us
+      </h1>
+    </header>
+    <hr />
+    <nav>
+      <p>
+        <a href="index.html">    Home    </a><br>
+
+          <a href="menu.html">    Menu    </a><br>
+
+
+
+            <a href="contact.html">    Contact    </a>
+            </p>
+    </nav>
+    <hr>
+    <form action="submit.html" method="POST">
+  <label for="Name">Name:</label> <br />
+<input type="text" id="Name" name="Name"> <br />
+<label for="Email">Email:</label><br />
+<input type="text" id="Email" name="Email"> <br />
+<label for="phone">Phone Number:</label><br />
+<input type="text" id="phone" name="phone"> <br />
+<label for="contact">Reason for Inquiry:</label><br />
+	<select id="contact" name="contact">
+    	<option value="default" selected>--Select One--</option>
+    	<option value="Catering">Catering</option>
+    	<option value="Private Party">Private Party</option>
+    	<option value="Feedback">Feedback</option>
+      <option value="Other">Other</option>
+	</select>
+  <fieldset>
+  	<legend>Have you been to the restaurant?:</legend><br />
+  	<input type="radio" id="choice1" name="questionnaire" value="yes">
+  	<label for="choice1">Yes</label>
+  	<input type="radio" id="choice2" name="questionnaire" value="no">
+  	<label for="choice2">No</label>
+  </fieldset>
+  <fieldset>
+<legend>Best days to contact you</legend><br />
+ 	<input type="checkbox" id="monday" name="interest" value="frontEnd">
+ 	<label for="monday">M</label>
+ 	<input type="checkbox" id="tuesday" name="interest" value="backEnd">
+ 	<label for="tuesday">T</label>
+ 	<input type="checkbox" id="wednesday" name="interest" value="database">
+ 	<label for="wednesday">W</label>
+  <input type="checkbox" id="thursday" name="interest" value="database">
+ 	<label for="thursday">Th</label>
+  <input type="checkbox" id="friday" name="interest" value="database">
+ 	<label for="friday">F</label>
+</fieldset>
+
+<input type="submit" name="submit" value="Send Request">
+    <footer>
+    801 Shoreline Dr, Santa Barbara, CA 93109 <br> 818-555-5555
+    </footer>
+    </body>
+</html>
