@@ -1,0 +1,62 @@
+
+
+body {
+  background-color: 	mistyrose;
+  font-family: arial, helvetica, sans-serif;
+  color: black;
+  max-width: 900px;
+  margin: 0 auto;
+}
+header, footer {
+  height: 100px;
+  background-color: 	navajowhite;
+  color: coral;
+  text-align: center;
+padding: 30px 10px 20px 10px;
+}
+nav {
+    border-top: 3px dashed floralwhite;
+  border-bottom: 3px dashed floralwhite;
+}
+nav a {
+  float:left;
+  background-color:navajowhite;
+  color:coral;
+  padding: 8px;
+  border: thin solid ;
+  test-decoration: none;
+  text-align: center;
+  display: block;
+margin: 7px;
+width: 100px;
+}
+nav a:visited {
+    color: grey;
+}
+nav a:hover {
+    background-color: coral;
+    color: navajowhite;
+}
+nav a:active {
+    font-weight: bold;
+}
+/*
+.border {
+  border: solid floralwhite;
+}
+*/
+h1 {
+    font-size: 2.5em;
+}
+.clear-float {
+    clear:both;
+}
+article img {
+   float:left;
+}
+.right-content {
+    float:left;
+}
+article {
+    margin-bottom: 16px;
+}
