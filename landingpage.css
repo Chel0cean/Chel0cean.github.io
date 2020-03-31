@@ -1,0 +1,58 @@
+body {
+border-radius: 45%;
+  background-image:url(images/mecopy.png), url(images/leaves.jpeg);
+  background-repeat:no-repeat, repeat;
+  background-position: center, left top;
+  background-attachment: fixed, fixed;
+  background-color:	#FED778;
+  max-width: 900px;
+  margin: 0 auto;
+}
+header {
+  height: 100px;
+  width: 100%;
+  background-color: #dcdde1;
+  font-family: 'Oswald';
+  color: #583042;
+  text-align: center;
+padding: 20px 10px 30px 10px;
+}
+footer {
+  border-radius: 45%;
+  height: 100px;
+  background-color: #dcdde1;
+  color: #2e4b56;
+  text-align: center;
+padding: 100px 10px 30px 10px;
+}
+.container, nav{
+  font-family: 'Oswald';
+  text-align: center;
+  display: block;
+  margin: 0px;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+nav .btn {
+    background-color: #dcdde1;
+    color: #2e4b56;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    margin: 7px;
+
+  }
+  nav .btn:hover {
+    font-weight: bold;
+    background-color: #2e4b56;
+    color: #dcdde1;
+}
+nav .btn:visited {
+    color: #583042;
+}
+nav .btn:active {
+    font-weight: bold;
+}
+img {
+  border-radius: 50%;
+}
