@@ -37,9 +37,9 @@
         </div>
         </div>
 <div class="Form">
-    <form id="contactForm" onsubmit="return send()" method="POST">
+    <!--form id="contactForm" onsubmit="return send()" method="POST"-->
   <label for="Name">Name:</label> <br />
-<input type="text" id="Name" name="Name"> <br />
+<input type="text" id="myName" name="Name"> <br />
 <label for="Email">Email:</label><br />
 <div id="error" style="display:none"></div>
 <input id = "reqfield" type="text" id="Email" name="Email"> <br />
@@ -75,11 +75,11 @@
 </fieldset>
 
 <br>
-<button type="button" form="contactForm"id="submit" onClick="send()">Send Request</button>
+<button id="submit" onClick="sendMe()">Send Request</button>
 <br> <br >
-<button type="button" id="reset" onClick="refresh()">Clear Fields</button>
+<button id="reset" onClick="refreshMe()">Clear Fields</button>
 <div id="sent" style="display:none"></div>
-</form>
+<!--/form->
 </div>
     <footer>
     801 Shoreline Dr, Santa Barbara, CA 93109 <br> 818-555-5555

@@ -1,7 +1,8 @@
 //if #Email is =""
 
 
-function send() {
+function sendMe() {
+  console.log("inside send");
 var email = String(document.getElementById("reqfield").value);
 if (email == "") {
 document.getElementById("error").style.display = "block";
@@ -14,8 +15,8 @@ document.getElementById("sent").innerHTML ="<br>*Thank you for your submission! 
 return false;
 }
 
-function refresh() {
-
-  document.getElementById(‘name’).value = ”“;
+function refreshMe() {
+  console.log("inside refresh function");
+  document.getElementById("myName").value = "";
   return false;
 }
