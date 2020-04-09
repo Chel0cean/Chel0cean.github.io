@@ -1,0 +1,136 @@
+
+.container{
+  font-family: 'Amatic SC';
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+}
+.container2{
+  font-family: 'Amatic SC';
+  font-size: 22px;
+  font-weight: 700;
+  color: black;
+  padding: 30px 15px 30px 15px;
+  margin: 20px;
+}
+body {
+  background-image:url(https://i.pinimg.com/736x/b2/f7/0a/b2f70a9658a31494574c5976bdcf5e7e.jpg);
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-color: 	#FED778;
+  max-width: 900px;
+  margin: 0 auto;
+}
+header {
+  border-radius: 45%;
+  height: 120px;
+  width: 100%;
+  background-color: 	navajowhite;
+  font-family: 'Rock Salt';
+  color: coral;
+  text-align: center;
+padding: 12px 10px 30px 10px;
+}
+footer {
+  border-radius: 45%;
+  height: 100px;
+  background-color: 	navajowhite;
+  color: coral;
+  text-align: center;
+padding: 100px 10px 30px 10px;
+}
+
+.table, .Description, .Form {
+  border: 20px solid navajowhite;
+  border-radius:5%;
+  background-color: rgba(255, 222, 173, .75);
+  color: black;
+  text-align: center;
+padding: 50px 50px 50px 50px;
+margin: 45px;
+
+}
+.carousel {
+  border: 20px coral solid;
+  border-radius:5%;
+  background-color: rgba(255, 222, 173);
+  color: black;
+  text-align: center;
+  width: 75%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+
+}
+.jumbotron {
+
+  border: 20px coral solid;
+  border-radius:5%;
+  background-color: rgba(255, 222, 173);
+  color: black;
+  text-align: center;
+  padding: 10px 10px 10px 10px;
+
+  width: 75%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+nav, footer {
+  border-top: thin coral solid;
+  border-bottom: thin coral solid;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+.col {
+  padding: 20px 10px 10px 20px;
+  text-align: center;
+}
+
+nav .btn {
+    float:left;
+    background-color: navajowhite;
+    color: coral;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+    display: block;
+    margin: 7px;
+    width: 100px;
+  }
+  nav .btn:hover {
+    font-weight: bold;
+    background-color: coral;
+    color: navajowhite;
+}
+nav .btn:visited {
+    color: #6A87B1;
+}
+nav .btn:active {
+    font-weight: bold;
+}
+
+
+h1 {
+    font-size: 2.5em;
+}
+.clear-float {
+    clear:both;
+}
+img {
+  border-radius: 25%;
+padding: 20px 0px 20px 0px;
+
+}
+#error {
+
+  font-family: "arial";
+  font-size: 10px;
+  color: red;
+
+}
