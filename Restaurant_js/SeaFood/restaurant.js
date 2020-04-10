@@ -16,7 +16,11 @@ return false;
 }
 
 function refreshMe() {
+  document.getElementById("error").style.display = "none";
   console.log("inside refresh function");
   document.getElementById("myName").value = "";
+  document.getElementById("reqfield").value = "";
+  document.getElementById("phone").value = "";
+
   return false;
 }
