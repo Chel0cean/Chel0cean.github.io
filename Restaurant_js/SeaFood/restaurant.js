@@ -21,6 +21,7 @@ function refreshMe() {
   document.getElementById("myName").value = "";
   document.getElementById("reqfield").value = "";
   document.getElementById("phone").value = "";
+  document.getElementById("sent").innerHTML ="";
 
   return false;
 }
